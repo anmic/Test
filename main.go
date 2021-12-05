@@ -55,5 +55,5 @@ func webSocketHandler(w http.ResponseWriter, r *http.Request) {
 	}
 
 	conn.Close()
-	fmt.Println("Connection closed")
+	// fmt.Println("Connection closed")
 }
